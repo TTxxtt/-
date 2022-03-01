@@ -301,6 +301,6 @@ optimizer = paddle.optimizer.AdamW(
 python re_official_evaluation.py --golden_file=dev_data.json  --predict_file=predicitons.json.zip [--alias_file alias_dict]
 ```
 
-输出指标为Precision, Recall 和 F1，Alias file包含了合法的实体别名，最终评测的时候会使用，这里不予提供。
+输出指标为Precision, Recall 和 F1，Alias file包含了合法的实体别名.
 
 
